@@ -1,0 +1,159 @@
+.thank-you-message {
+  text-align: center;
+  margin-top: 100px;
+  padding: 30px;
+  background-color: #f9fafb;
+  border-radius: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.thank-you-message h2 {
+  color: #1f2937;
+  font-size: 24px;
+}
+
+.thank-you-message p {
+  color: #4b5563;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content h2 {
+  margin-bottom: 10px;
+  color: #1f2937;
+}
+
+.modal-content p {
+  font-size: 16px;
+  color: #4b5563;
+  margin-bottom: 20px;
+}
+
+.modal-button {
+  background-color: #1f2937;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.modal-button:hover {
+  background-color: #374151;
+}
+
+/* Make form content centered and responsive */
+.form-container {
+  max-width: 500px;
+  width: 90%;
+  margin: 40px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Form fields style */
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+   box-sizing: border-box;
+}
+
+/* Buttons */
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1f2937;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease;
+}
+
+form button:hover {
+  background-color: #374151;
+}
+
+/* Responsive text alignment and sizing */
+.header-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.title {
+  display: inline-block;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+  color: #1f2937;
+}
+
+.motto {
+  font-size: 16px;
+  color: #6b7280;
+}
+
+/* Media Queries for Mobile/Tablet */
+@media (max-width: 768px) {
+  .form-container {
+    margin: 20px;
+    padding: 16px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .motto {
+    font-size: 14px;
+  }
+
+  .logo {
+    width: 45px;
+  }
+}

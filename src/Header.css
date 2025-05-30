@@ -1,0 +1,37 @@
+.header {
+  background-color: #1f2937;
+  color: white;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 24px;
+  margin: 0;
+  font-size: 24px;
+  margin: 0;
+  color: white; /* Changed from yellow */
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+}
+
+.motto {
+  font-size: 14px;
+  margin-top: 5px;
+  font-style: italic;
+  
+}
