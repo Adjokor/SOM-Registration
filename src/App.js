@@ -62,7 +62,7 @@ function App() {
               Join us for this spirit-filled camp meeting and your life will never be the same.
             </p>
             <a
-  href="https://wa.me/233XXXXXXXXX"  // Replace with your WhatsApp number or group link
+  href="https://wa.me/233541023973"  // Replace with your WhatsApp number or group link
   target="_blank"
   rel="noopener noreferrer"
 >
