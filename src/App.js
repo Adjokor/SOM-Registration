@@ -61,7 +61,15 @@ function App() {
             <p>
               Join us for this spirit-filled camp meeting and your life will never be the same.
             </p>
-            <button className="modal-button" onClick={closeModal}>Close</button>
+            <a
+  href="https://wa.me/233XXXXXXXXX"  // Replace with your WhatsApp number or group link
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button className="modal-button" onClick={closeModal}>
+    Join WhatsApp Group
+  </button>
+</a>
           </div>
         </div>
       )}
